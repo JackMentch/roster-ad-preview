@@ -28,7 +28,7 @@
 .catcher {
     position: absolute;
     left: 50%;
-    top: 410px;
+    top: 400px;
     transform: translateX(-50%);
 }
 
@@ -58,7 +58,7 @@
 
 .designated-hitter {
     position: absolute;
-    top: 410px;
+    top: 400px;
     left: 1%;
 
 }
@@ -68,7 +68,7 @@
 .animated-circle {
     fill: none;
     stroke: rgba(255, 255, 255, 1);
-    stroke-width: 4;
+    stroke-width: 3;
     stroke-dasharray: 400;
     /* Total circumference of the circle */
     stroke-dashoffset: 400;
@@ -104,7 +104,7 @@
 
 .absolute-element {
     position: absolute;
-    top: 250px;
+    top: 240px;
     /* Adjust the top position as needed */
 
     left: 25%;
@@ -155,11 +155,11 @@ h5 {
 .botRightText {
 
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial, sans-serif;
     position: absolute;
     right: -40px;
-    top: 500px;
+    top: 485px;
     transform: translateX(-50%);
 
     @apply tracking-tight font-bold;
@@ -190,8 +190,8 @@ h5 {
     left: 50%;
     /* Adjust the position as needed */
     width: 100vw;
-    height: 340px;
-    transform: translate(-50%, 52%);
+    height: 290px;
+    transform: translate(-50%, 62%);
     /* Center the image based on its dimensions */
     z-index: 0;
     /* Ensure the foreground image is on top */

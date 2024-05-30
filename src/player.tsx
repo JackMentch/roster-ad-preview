@@ -11,8 +11,8 @@ interface Props {
 
 const Player: React.FC<Props> = ({ myPlayer, correct }) => {
     const playerStyle: React.CSSProperties = {
-        width: '80.5px',
-        height: '110px',
+        width: '75.5px',
+        height: '104px',
         backgroundColor: 'white',
         borderRadius: '5px',
     };

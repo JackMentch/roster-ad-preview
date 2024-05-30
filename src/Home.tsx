@@ -479,9 +479,9 @@ const Home: React.FC = () => {
                 <div className="absolute-element">
 
                     <svg width="100%" height="100%">
-                        <circle cx="50%" cy="50%" r="38" className="animated-circle" />
+                        <circle cx="50%" cy="50%" r="33" className="animated-circle" />
 
-                        <foreignObject x="25%" y="28%" width="50%" height="50%">
+                        <foreignObject x="25%" y="30%" width="50%" height="50%">
                             <AnimatedNumber endValue={averageRating} />
                             <p>OVR</p>
                         </foreignObject>
