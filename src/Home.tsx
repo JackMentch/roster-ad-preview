@@ -504,7 +504,7 @@ const Home: React.FC = () => {
             </div >
 
             
-
+            <AdBanner />
             <Analytics />
 
         </div >
