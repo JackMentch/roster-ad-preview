@@ -354,7 +354,7 @@ const Home: React.FC = () => {
 
             {leader ? (<Leader draft_id={quizIndex} setLeader={() => { setLeader(false) }} setOverlay={() => { setOverlay(false) }} />) : null}
 
-            <img className="foregroundImage" src="/" alt="Second Image"></img>
+            <img className="foregroundImage" src="/field.png" alt="Second Image"></img>
 
             <h1 className="topLeftText">ImmaculateDraft.com</h1>
 
