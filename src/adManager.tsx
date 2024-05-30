@@ -31,7 +31,7 @@ const AdBanner: React.FC = () => {
         minWidth: '300px',
         minHeight: '50px',
         position: 'absolute',
-        top: '540px',
+        top: '520px',
         outline: '2px solid red', // Add this line for the outline
       }}
     ></div>
