@@ -1,0 +1,97 @@
+.instruction {
+    position: fixed;
+    width: 300px;
+    height: 390px;
+    margin-top: 10%;
+    background-color: #ffffff;
+    z-index: 100;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-color: #36454F;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: #36454fe9;
+    /* You can change the color as needed */
+}
+
+.scrollable {
+    height: 350px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.title {
+    padding-top: 34px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    @apply font-bold;
+}
+
+.body {
+    line-height: 15px;
+    font-size: 12px;
+    margin-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+    text-align: left;
+
+    @apply text-gray-600 font-extralight;
+}
+
+.sub-title {
+    
+    padding-left: 5px;
+    font-size: 14px;
+    margin-top: 14px;
+    @apply text-gray-900;
+}
+
+.image-with-text {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Adjust the gap between the image and text */
+  }
+
+
+  .textImage {
+
+    padding-top: 38px;
+    line-height: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    @apply font-bold;
+
+  }
+
+  .smallerTextImage {
+
+    line-height: 4px;
+    color: rgba(0, 0, 0, 0.837);
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+  }
+
+  .notBold {
+
+    color: rgba(0, 0, 0, 0.721);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+  }

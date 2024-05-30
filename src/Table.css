@@ -1,0 +1,117 @@
+.topText {
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    @apply font-bold;
+}
+
+.center-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+table {
+    width: 88%;
+    top: 70px;
+    border-collapse: collapse;
+    position: relative;
+    outline: solid black 2px;
+    background-color:  hsl(240, 1%, 62%);
+
+}
+
+.flexing {
+    display: flex;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 1px;
+    padding-left: 6px;
+    text-align: left;
+    font-size: 12px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1.5px;
+    padding-left: 6px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+th {
+    background-color: #dfdfdf;
+    color: #000000;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 10px;
+    padding: 6px;
+}
+
+label {
+
+    right: 8%;
+    position: absolute;
+
+}
+option{
+
+}
+select {
+    top: 35px;
+    right: 5.9%;
+    position: absolute;
+
+
+}
+
+/* Set a specific width for the "Name" column */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 70%;
+    /* Adjust the width as needed */
+}
+
+/* Set a smaller width for the "Rating" column */
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+    /* Adjust the width as needed */
+}
+
+th:hover {
+    background-color: #a8a8a8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: hsl(240, 1%, 62%);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: hsl(0, 0%, 52%);
+}
+
+tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tbody {
+    display: block;
+
+
+    max-height: 450px;
+    /* Adjust the maximum height as needed */
+    overflow-y: auto;
+
+}

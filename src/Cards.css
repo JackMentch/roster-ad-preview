@@ -1,0 +1,13 @@
+.player {
+    cursor: pointer;
+    text-align: center;
+    opacity: 0;
+    position: relative;
+
+}
+
+.empty {
+    font-size: 32px;
+    padding-top: 28px;
+    @apply font-bold text-gray-700;
+}

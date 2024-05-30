@@ -1,0 +1,11 @@
+.card{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover{
+    opacity: 0.8; /* Set the desired opacity on hover */
+}

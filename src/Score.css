@@ -1,0 +1,8 @@
+/* AnimatedNumber.css */
+.animated-number {
+    color: white; /* Change the color to your desired value */
+    font-size: 40px;
+    text-shadow: 0px 0px 3px black;
+    @apply font-bold tracking-tight;
+  }
+  

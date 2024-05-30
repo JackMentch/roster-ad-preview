@@ -1,0 +1,82 @@
+{
+    "id": 28,
+    "key": {
+        "0": {
+            "question": "Who holds the record for the most strikeouts in a game?",
+            "type": "player",
+            "extra": "20 Strikeouts",
+            "answer": [
+                "Max Scherzer",
+                "Kerry Wood",
+                "Roger Clemens"
+            ]
+        },
+        "1": {
+            "question": "Who was the last player to win back-to-back MVP Awards?",
+            "type": "player",
+            "extra": "2012-13",
+            "answer": [
+                "Miguel Cabrera"
+            ]
+        },
+        "2": {
+            "question": "The Salt Lake Bees are the Triple-A affiliate of which MLB team?",
+            "type": "team",
+            "image": "https://www.mlbstatic.com/team-logos/team-cap-on-light/561.svg",
+            "answer": [
+                "Los Angeles Angels"
+            ]
+        },
+        "3": {
+            "question": "What player did the Rangers trade away in order to acquire Corey Kluber?",
+            "type": "player",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/https-3A-2F-2Fnolanwritin-com-2Fwp-content-2Fuploads-2Fgetty-images-2F2017-2F07-2F1259152445-850x560-87e9d4f9bee9702bb489458f51e711e1.jpg",
+            "extra": "Kluber threw 1 inning for the Rangers",
+            "answer": [
+                "Emmanuel Clase",
+                "Delino DeShields"
+            ]
+        },
+        "4": {
+            "question": "Name this player",
+            "type": "player",
+            "image": "https://img.sportsv.net/img/photo/image/4/133594/aspect-2MGvXGc3hH-600xauto.jpg",
+            "answer": [
+                "Andrew Miller"
+            ]
+        },
+        "5": {
+            "question": "Who is this call referencing?",
+            "type": "player",
+            "mp3": "strop.mp3",
+            "answer": [
+                "Pedro Strop"
+            ]
+        },
+        "6": {
+            "question": "Besides Aaron Judge, who was the last player in the AL to hit 50 Home Runs in a season?",
+            "image": "https://bdc2020.o0bc.com/wp-content/uploads/2023/09/Judge-2-650e5bb8c6c45-768x432.jpg",
+            "extra": "53 homers in 2013",
+            "answer": [
+                "Chris Davis"
+            ]
+        },
+        "7": {
+            "question": "Which player has a higher career WAR?",
+            "type": "player",
+            "image": "https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/ipsicvdbrxecfz2f2dbl.jpg",
+            "extra": "Paul Goldschmidt (57.4), Nolan Arenado (48.0)",
+            "answer": [
+                "Paul Goldschmidt"
+            ]
+        },
+        "8": {
+            "question": "Which team's stadium is this?",
+            "type": "team",
+            "image": "https://live.staticflickr.com/3049/2375957521_6a0ff976a6_b.jpg",
+            "answer": [
+                "Washington Nationals"
+            ]
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.fade-in-element {
+    animation: fade-in 0.5s ease forwards;
+}
+
+.field-new{
+    margin-top: 35px;
+}
+
+.submit-new {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 180px;
+}
+
+@media screen and (min-width: 767px) {
+    .submit {
+        margin-left: -80px;
+    }
+
+}
+
+.right{
+    margin-right: -18px;
+    margin-top: -30px;
+    
+}
+
+@media screen and (min-width: 767px) {
+    .righ {
+        margin-right: -5%;
+    }
+
+}

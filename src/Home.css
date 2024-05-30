@@ -1,0 +1,472 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #dbba8fe6;
+
+}
+
+.left-field {
+    position: absolute;
+    top: 50px;
+    left: 8%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        left: 20%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.center-field {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 30px;
+}
+
+.right-field {
+    position: absolute;
+    right: 8%;
+    top: 50px;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        right: 20%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.catcher {
+    position: absolute;
+    left: 50%;
+    top: 480px;
+    transform: translateX(-50%);
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        top: 550px;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.third-base {
+    position: absolute;
+    top: 270px;
+    left: 1%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        left: 5%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.shortstop {
+    position: absolute;
+    top: 170px;
+    left: 25.5%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        left: 35%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.second-base {
+    position: absolute;
+    top: 170px;
+    right: 25.5%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        right: 35%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.first-base {
+    position: absolute;
+    top: 270px;
+    right: 1%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        right: 5%;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.designated-hitter {
+    position: absolute;
+    top: 480px;
+    left: 1%;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        left: 5%;
+        top: 480px;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+
+
+.animated-circle {
+    fill: none;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 4;
+    stroke-dasharray: 400;
+    /* Total circumference of the circle */
+    stroke-dashoffset: 400;
+    /* Initially, the circle is not visible */
+    animation: drawCircle 1.5s ease-out forwards;
+    /* Animation duration and easing function */
+}
+
+.text-inside {
+    fill: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+@keyframes drawCircle {
+    to {
+        stroke-dashoffset: 0;
+        /* The circle is fully visible */
+    }
+}
+
+.overlay-full {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.92);
+    z-index: 3;
+    animation: fadeIn 0.25s ease forwards;
+}
+
+
+.absolute-element {
+    position: absolute;
+    top: 290px;
+    /* Adjust the top position as needed */
+
+    left: 25%;
+    /* Adjust the left position as needed */
+    right: 25%;
+    /* Adjust the left position as needed */
+    padding: 10px;
+    color: white;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        top: 350px;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+p {
+    margin-top: -14px;
+    margin-left: -3px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-shadow: 0px 0px 3px black;
+    @apply tracking-tight;
+
+}
+
+h5 {
+
+    margin-top: -32px;
+    font-family: Arial, sans-serif;
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    @apply tracking-tight;
+
+}
+
+.topLeftText {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    z-index: 2;
+    /* Ensure the text is on top */
+    color: white;
+    /* Set the text color */
+    font-size: 18px;
+    /* Adjust the font size */
+    font-family: Arial, sans-serif;
+    @apply font-bold;
+}
+
+.botRightText {
+
+    color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+
+
+    position: fixed;
+    right: -40px;
+    top: 580px;
+    transform: translateX(-50%);
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        top: 640px;
+        /* Adjust the left position for medium screens */
+    }
+    @apply tracking-tight font-bold;
+}
+
+.botRightButton {
+
+  
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+
+
+    position: fixed;
+    right: -38px;
+    top: 540px;
+    transform: translateX(-50%);
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        top: 600px;
+        /* Adjust the left position for medium screens */
+    }
+}
+
+.foregroundImage {
+    position: absolute;
+
+    left: 50%;
+    /* Adjust the position as needed */
+    width: 100vw;
+    height: 400px;
+    transform: translate(-50%, 50%);
+    /* Center the image based on its dimensions */
+    z-index: 0;
+    /* Ensure the foreground image is on top */
+    /* Additional styles for the second image */
+    animation: fadeIn 1s ease forwards;
+
+
+}
+
+.info {
+
+    max-width: 25px;
+    position: fixed;
+    right: 0px;
+    top: 5px;
+    transform: translateX(-50%);
+
+}
+
+.leaders {
+
+    max-width: 30px;
+    position: fixed;
+    right: 55px;
+    top: 3px;
+    transform: translateX(-50%);
+
+}
+
+.end {
+    max-width: 350px;
+    margin-top: 100px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    animation: fadeIn 0.75s ease forwards;
+}
+
+
+@media screen and (max-width: 767px) {
+    #foregroundImage {
+        height: 340px;
+        transform: translate(-50%, 65%);
+
+        /* Adjust the percentage for small screens */
+        /* Additional styles for the small screen image */
+    }
+}
+
+.quiz {
+    position: relative;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-left: 2px;
+}
+
+.border {
+
+    background-color: #ffffff;
+    z-index: 100;
+
+    /* Background color of the container */
+    position: relative;
+    width: 90%;
+    top: 5px;
+    border: 2px solid black;
+    /* Black outline */
+    border-radius: 10px;
+    /* Rounded edges */
+    transform: translate(5%, 0%);
+
+    /* Add some padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    animation: fadeIn 0.5s ease forwards;
+
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        width: 50%;
+        transform: translate(50%, 0%);
+    }
+
+
+}
+
+button {
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.left {
+    display: relative;
+}
+
+.cards {
+
+
+    z-index: 100;
+    position: relative;
+    animation: fadeIn 0.5s ease forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Medium screens */
+    @media screen and (min-width: 767px) {
+        width: 50%;
+        transform: translate(50%, 0%);
+    }
+
+
+}
+
+.card {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+.ippei {
+    color: rgba(255, 255, 255, 0.559);
+    position: relative;
+    font-size: 14px;
+    padding-top: 15px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.0s ease forwards;
+
+}
+
+.header-incorrect {
+    color: rgba(255, 0, 0, 0.497);
+    position: relative;
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+    @apply tracking-tight font-bold;
+}
+
+.header-correct {
+    color: rgba(58, 255, 81, 0.456);
+    position: relative;
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+    @apply tracking-tight font-bold;
+}
+
+.percentile {
+    color: rgba(255, 255, 255, 0.748);
+    position: relative;
+    font-size: 12px;
+    padding-top: 15px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn .5s ease forwards;
+    @apply tracking-tight;
+}
+
+.answer-extra {
+    color: rgba(255, 255, 255, 0.56);
+    padding-top: 10px;
+    position: relative;
+    font-size: 10px;
+
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.0s ease forwards;
+    @apply tracking-tight;
+}
+
+.answer {
+    color: rgba(255, 255, 255, 0.56);
+    position: relative;
+    font-size: 12px;
+    padding-top: 0px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+    @apply tracking-tight;
+}
+.answer-title {
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-decoration: underline;
+    font-size: 14px;
+    padding-top: 0px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+    @apply tracking-tight font-bold;
+}
+
+.end-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.92);
+    z-index: 3;
+    animation: fadeIn 0.5s ease forwards;
+}
