@@ -29,9 +29,11 @@ const AdBanner: React.FC = () => {
       className='ad-banner'
       style={{
         minWidth: '300px',
+        left: '50%',
+        transform: 'translateX(-50%)',
         minHeight: '50px',
         position: 'absolute',
-        top: '495px',
+        top: '510px',
         outline: '2px solid red', // Add this line for the outline
       }}
     ></div>
