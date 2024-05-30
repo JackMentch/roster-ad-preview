@@ -10,12 +10,17 @@ interface Props {
 }
 
 const Player: React.FC<Props> = ({ myPlayer, correct }) => {
-    const playerStyle: React.CSSProperties = {
+
+    
+    let playerStyle: React.CSSProperties = {
         width: '75.5px',
         height: '104px',
         backgroundColor: 'white',
         borderRadius: '5px',
     };
+
+
+
 
     let background: string = 'linear-gradient(to bottom right, #ad8a58, #faeede ,#ad8a58)';
 

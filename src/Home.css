@@ -28,13 +28,13 @@
 .catcher {
     position: absolute;
     left: 50%;
-    top: 400px;
+    top: 375px;
     transform: translateX(-50%);
 }
 
 .third-base {
     position: absolute;
-    top: 250px;
+    top: 240px;
     left: 1%;
 }
 
@@ -52,13 +52,13 @@
 
 .first-base {
     position: absolute;
-    top: 250px;
+    top: 240px;
     right: 1%;
 }
 
 .designated-hitter {
     position: absolute;
-    top: 400px;
+    top: 375px;
     left: 1%;
 
 }
@@ -104,7 +104,7 @@
 
 .absolute-element {
     position: absolute;
-    top: 240px;
+    top: 230px;
     /* Adjust the top position as needed */
 
     left: 25%;
@@ -159,7 +159,7 @@ h5 {
     font-family: Arial, sans-serif;
     position: absolute;
     right: -40px;
-    top: 485px;
+    top: 460px;
     transform: translateX(-50%);
 
     @apply tracking-tight font-bold;
