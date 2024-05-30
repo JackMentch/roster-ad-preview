@@ -4,7 +4,7 @@
 <head>
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4742959864991636"
-    crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZM6GXPH59"></script>
@@ -22,7 +22,9 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta name="description" content="Daily MLB Trivia!" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -30,7 +32,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="immaculatedraft.com">
   <meta name="twitter:title" content="Immaculate Draft">
-  <meta name="twitter:description" content="Draft Your Dynasty Today!">
+  <meta name="twitter:description"
+    content="Draft Your Dynasty Today!">
   <meta name="twitter:image" content="https://www.immaculatedraft.com/tweet.png">
   <meta name="twitter:image:alt" content="Immaculate Draft">
 
@@ -50,8 +53,13 @@
     -->
   <title>Immaculate Draft</title>
   <style>
-    /* styles.css */
-
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: relative;
+      /* Position relative for positioning the second image */
+    }
 
     @keyframes fadeIn {
       from {
@@ -61,6 +69,18 @@
       to {
         opacity: 1;
       }
+    }
+
+    #backgroundContainer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('/outfield.png');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100% 100%;
     }
   </style>
 </head>
