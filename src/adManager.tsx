@@ -33,8 +33,7 @@ const AdBanner: React.FC = () => {
         transform: 'translateX(-50%)',
         minHeight: '50px',
         position: 'absolute',
-        top: '510px',
-        outline: '2px solid red', // Add this line for the outline
+        top: '510px'
       }}
     ></div>
   );
