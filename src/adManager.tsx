@@ -30,7 +30,6 @@ const AdBanner: React.FC = () => {
       style={{
         minWidth: '300px',
         minHeight: '50px',
-        paddingTop: '40px',
         position: 'absolute'
       }}
     ></div>
